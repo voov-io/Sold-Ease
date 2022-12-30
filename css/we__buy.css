@@ -1,0 +1,30 @@
+.we__buy.container{
+    column-gap: 3em;
+}
+
+.we__buy--img{
+    width:40% ;
+}
+.we__buy--subtitle{
+    color: var(--dark_blue_color);
+    margin-bottom: 1em;
+    font-size: var(--sizeSubtittle);
+}
+.we__buy__texts{
+    width: 50%;
+    color: var(--dark_blue_color);
+    text-align: justify;
+    padding-bottom: 3em;
+}
+
+.we__buy--text{
+    margin-bottom: 1.5em;
+}
+.we__buy--img img{
+    width:100% ;
+}
+
+.we__buy__texts a{
+    display: inline-block;
+    margin-top: 1em;
+}

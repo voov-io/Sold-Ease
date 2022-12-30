@@ -1,0 +1,42 @@
+header{
+
+    position: absolute;
+    width: 100%;
+    background: transparent;
+}
+
+header .container{
+
+    justify-content: space-between;
+}
+.logo {
+    text-align: left;
+}
+.logo .logo__image{
+    width: 10.5em;
+    height: auto;
+}
+.menu{
+    display: flex;
+    place-items: center;
+}
+
+.menu > *{
+    font-family: "Lato Black";
+    color: white;
+    text-transform: uppercase;
+}
+.menu .menu__container{
+    display: flex;
+    column-gap: 3em;
+}
+
+.menu__container--subitem{
+    display: none;
+}
+@media screen and (max-width:769px){
+    header .container{
+
+       flex-direction: column;
+    }
+}

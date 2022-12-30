@@ -1,0 +1,37 @@
+main{
+    background-image: url("/images/background\ image\ -\ main\ section@2x.png");
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .container{
+    margin-top: 8em;
+    position: absolute;
+    
+}
+
+main .container h1{
+    font-size: 3.75em;
+    font-family: 'Lato';
+    font-weight: 900;
+    margin-bottom: .5em;
+}
+
+main .container > *{
+    color:white
+}
+.main--subtile{
+    font-size:1.6em ;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+.main--copy{
+    max-width: 50%;
+    text-align: justify;
+}

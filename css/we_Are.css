@@ -1,0 +1,17 @@
+.we_are__texts{
+    width: 60%;
+}
+.we_are__texts > *{
+    margin-bottom: 2em;
+}
+.we_are__texts a{
+    padding-top: 1em;
+}
+.we_are__image{
+    width: 40%;
+}
+
+.we_are__image img{
+    width: 100%;
+    height: auto;
+}

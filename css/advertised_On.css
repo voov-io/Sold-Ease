@@ -1,0 +1,40 @@
+.Asd_on{
+    background-color: var(--blue_opacity_color);
+}
+
+.Asd_on--subtitle{
+    width: 30%;
+    color: var(--dark_blue_color);
+    font-size: var(--sizeSubtittle);
+}
+.Asd_on--slider{
+
+    position: relative;
+    width: 100%;
+    height: 7em;
+    overflow: hidden;
+}
+
+.Asd_on--slider-contain{
+    
+}
+.Asd_on--slider picture{
+    
+    top: 0;
+    left: 100%;
+    width: 100%;
+    position: absolute;
+    white-space: nowrap;
+    animation: infinity__slider 20s linear infinite;
+}
+.Asd_on--slider picture img{
+    height:6.6em ;
+}
+@keyframes infinity__slider{
+    0% {
+        left: 100%;
+      }
+      100% {
+        left: -100%
+      }
+}

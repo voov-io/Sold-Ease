@@ -1,0 +1,27 @@
+.let_Our{
+    background-color: var(--dark_blue_color);
+}
+.let_Our .container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.let_Our h2,.let_Our p{
+    color: white;
+    text-align: center;
+    max-width: 70%;
+}
+.let_Our video{
+    max-width: 60%;
+    width: 60%;
+    object-fit: contain;
+    object-position: bottom;
+    height: fit-content;
+    max-height: fit-content;
+    border-radius: 15px;
+
+}
+.let_Our source{
+    width: 100%;
+    object-fit: contain;
+}
