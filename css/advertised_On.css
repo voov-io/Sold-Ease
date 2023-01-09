@@ -30,6 +30,13 @@
 .Asd_on--slider picture img{
     height:6.6em ;
 }
+@media screen and (max-width:426px) {
+    .Asd_on--subtitle{
+        width: 100%;
+        text-align: center;
+    }
+
+}
 @keyframes infinity__slider{
     0% {
         left: 100%;

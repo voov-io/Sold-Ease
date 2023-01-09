@@ -1,6 +1,7 @@
 main{
     background-image: url("/images/background\ image\ -\ main\ section@2x.png");
     width: auto;
+    min-height: 55em;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,8 +12,9 @@ main{
 }
 
 main .container{
-    margin-top: 8em;
+    margin-top: 9em;
     position: absolute;
+    place-items: initial;
     
 }
 
@@ -34,4 +36,19 @@ main .container > *{
 .main--copy{
     max-width: 50%;
     text-align: justify;
+}
+
+@media screen and (max-width:426px) {
+    main{
+        height: 60em;
+    }
+    .main--copy{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    main{
+        height: 70em;
+    }
 }

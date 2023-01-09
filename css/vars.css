@@ -1,18 +1,25 @@
-
+/*@font-face {
+  font-family:'Lato Regular';
+  src: url("/fonts/Lato-Regular.ttf") format("ttf");
+}
+*/
 :root{
     --dark_blue_color:#00437A;
     --blue_color:#008CFF;
+    --Bluecolor30: rgba(0,93,203,0.2);
     --blue_opacity_color:#EBF6FE;
     --yellow__color:#FFB71B;
     --sizeSubtittle:1.9em;
+    --colorLine:#C9E0F1;
   }
   *{
     box-sizing: border-box;
   }
+
   body{
     font-size: 16px;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family:'Lato Regular'!important;
     color: var(--dark_blue_color);
     scroll-behavior: smooth;
     margin: 0;
@@ -23,7 +30,7 @@
     font-weight: 900;
     font-size: var(--sizeSubtittle);
   }
-  p, ul, li,a{
+  p, ul, li,a,figcaption{
     font-size: 1em;
     font-family:"Lato";
   }
@@ -32,12 +39,17 @@
     list-style: none;
   }
 
-  a{
+  li a, a{
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    font-family:"Lato";
+    font-weight: 900;
   }
   
+  figure{
+    margin: 0;
+  }
   .maxWith{
     width: 1024px;
   }
@@ -48,6 +60,7 @@
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
+    gap: 3em;
   }
 
   .container.flex, .flex
@@ -58,6 +71,8 @@
   .container.flex.center, .flex.center
   {
     place-items: center;
+    place-content: center;
+   
   }
 
   
@@ -67,6 +82,7 @@
   text-transform: uppercase;
   font-weight: 900;
   color: white;
+  transition: all 0.5s ease;
 }
 .btn.blue{
   background-color: var(--dark_blue_color);
@@ -74,4 +90,14 @@
 .btn.bluesky{
   background-color: var(--blue_color);
 }
-  /*Global rules */
+
+.btn:hover{
+  background-color: var(--yellow__color);
+  transform: scale(1.1);
+}
+.btn.call:hover{
+  background-color: var(--blue_color);
+  transform: scale(1.1);
+}
+
+/*Global rules */
