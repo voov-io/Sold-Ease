@@ -7,7 +7,9 @@ header{
 
 header .container{
 
-    justify-content: space-between;
+    /*flex-direction: column;*/
+    gap: 0;
+    max-width:1440px ;
 }
 .logo {
     text-align: left;
@@ -19,24 +21,118 @@ header .container{
 .menu{
     display: flex;
     place-items: center;
+    position: relative;
 }
 
 .menu > *{
     font-family: "Lato Black";
     color: white;
     text-transform: uppercase;
+
 }
 .menu .menu__container{
     display: flex;
-    column-gap: 3em;
+    column-gap: 1.5em;
 }
 
+.withSubitem{
+    position: relative;
+
+}
+.withSubitem:hover .menu__container--subitem{
+    display: block;
+}
 .menu__container--subitem{
     display: none;
+    position: absolute;
+    padding: 1em;
+    background-color: var(--dark_blue_color);
+    width: 8em;
+    z-index: 999;
+    transition: all .5s ease-in-out;
 }
-@media screen and (max-width:769px){
+.menu__container--subitem > li{
+    margin-bottom: 1.5em;
+}
+
+.menu .buttom{
+    position: relative;
+    right: 0;
+}
+
+
+@media screen and (max-width:1075px){
+  
+    #btns__menu.active{
+        background-color: var(--dark_blue_color);
+        height: 100vh;
+        top: 0;
+        padding: 1em;
+        padding-top: 5em;
+        z-index: 999;
+        box-sizing: content-box;
+    }
+    .menu .menu__container, .buttom{
+        top: 60px;
+        display: none;
+    }
+
+    .menu .menu__container.active, .buttom.active{
+        display: flex;
+
+     }
+
+     .buttom.active{
+        top: 2em;
+
+     }
+
+     .menu__container.active{
+        flex-direction: column;
+        gap: 2em;
+        top: 200px;
+        position: absolute;
+        
+     }
+    
     header .container{
 
-       flex-direction: column;
+        justify-content: left!important;
+    
+    }
+    .menu{
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        padding-right:2em ;
+        left: 70%;
+    }
+
+    #McButton{
+        display: block;
+        top: 35px;
+        left: 70%
+      }
+
+      #McButton.active{
+    
+        top: 35px;
+      }
+
+      .buttom__container--call.active{
+        background-color: var(--yellow__color);
+      }
+}
+@media screen and (max-width:769px){
+    .menu{
+        left: 60%;
+    }
+}
+
+@media screen and (max-width:595px){
+   
+
+    .menu{
+        left: 30%;
     }
 }

@@ -1,0 +1,35 @@
+.we_buy_houses .container h2{
+    text-align: center;
+}
+
+.we_buy_houses__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20em,1fr));
+    gap: 1em;
+}
+
+.we_buy_houses__list--item{
+    padding: 1.5em;
+    border: 1px solid var(--colorLine);
+    border-radius: 15px;
+}
+
+.we_buy_houses__list--item{
+
+}
+
+.we_buy_houses__list--item picture img{
+
+    height:4.6em;
+    margin-right: 1em;
+}
+
+.we_buy_houses__list--texts h3{
+    font-size: 1.31em;
+    margin-bottom: .5em;
+}
+
+
+.we_buy_houses__list--texts p{
+    margin-top: .5em;
+}
