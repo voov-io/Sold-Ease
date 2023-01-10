@@ -3,8 +3,13 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
+        fill: black;
       }
+      @media (prefers-color-scheme: dark) {
+      .cls-1 {
+        fill: white;
+      }
+    }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
