@@ -1,5 +1,5 @@
 main{
-    background-image: url("/images/background\ image\ -\ main\ section@2x.png");
+   
     width: auto;
     min-height: 55em;
     height: 100vh;
@@ -9,6 +9,46 @@ main{
     display: flex;
     justify-content: center;
     
+    
+}
+main form{
+    border-radius: 15px;
+    background: white;
+    padding:1em;
+    text-align: center;
+    display: flex;
+    
+    box-shadow: 0px 13px 28px 0px var(--Bluecolor30);
+        -webkit-box-shadow: 0px 13px 28px 0px var(--Bluecolor30);
+        -moz-box-shadow: 0px 13px 28px 0px var(--Bluecolor30);
+}
+.form__input{
+    padding: 1.5em 1em;
+    background-color: var(--Bluecolor30);
+    border: none;
+    border-radius: 15px;
+    font-family:"Lato", sans-serif;
+    font-weight: 300;
+    margin-right: .5em;
+}
+
+.form__input::-webkit-input-placeholder { /* Edge */
+    color: var(--dark_blue_color);
+    
+  }
+.form__input:first-child{
+    padding: 1.5em 1em;
+    width: 50%;
+}
+.form__input:nth-child(2){
+    width: 25%;
+}
+
+.form__submit{
+    border: none;
+    padding: 1.5em 2em;
+    width: auto;
+    min-width: 25%;
 }
 
 main .container{

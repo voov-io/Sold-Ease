@@ -11,9 +11,11 @@
     --yellow__color:#FFB71B;
     --sizeSubtittle:1.9em;
     --colorLine:#C9E0F1;
+    scroll-behavior: smooth;
   }
   *{
     box-sizing: border-box;
+    overflow: visible;
   }
 
   body{

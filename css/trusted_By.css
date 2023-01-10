@@ -6,7 +6,7 @@
     font-size: var(--sizeSubtittle);
 }
 .Trusted__by--data{
-    justify-content: space-evenly;
+    justify-content: space-evenly!important;
     gap: 1.5em;
     margin-bottom: 2em;
 }
