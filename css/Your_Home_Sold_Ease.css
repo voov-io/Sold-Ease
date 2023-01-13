@@ -1,0 +1,55 @@
+.Your_Home_Sold_Ease .container{
+    text-align: center;
+}
+
+.Your_Home--icons{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Your_Home--icons article img{
+    background-color: white;
+}
+.Your_Home--icons article{
+    padding: 1em;
+    max-width: 15em;
+    gap: 3em;
+    position: relative;
+}
+
+.Your_Home--icons article picture hr{
+    
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    background: var(--colorLine);
+    border-radius: 15px;
+    top: 30%;
+    left: 79%;
+    z-index: -1;
+    border: none;
+}
+
+
+.Your_Home--icons article:nth-child(2){
+    text-align: center;
+}
+
+@media screen and (max-width:575px) {
+    .Your_Home--icons{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Your_Home--icons article picture hr{
+        transform: rotate(90deg);
+        left: 14px;
+        top: 60%;
+    }
+
+    .Your_Home--icons article p{
+        background-color: white;
+    }
+   
+}

@@ -25,11 +25,19 @@
     width: 100%;
     position: absolute;
     white-space: nowrap;
-    animation: infinity__slider 40s linear infinite;
+    animation: infinity__slider 20s linear infinite;
 }
 .Asd_on--slider picture img{
     height:6.6em ;
 }
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    background: yellow;
+  }
 @media screen and (max-width:426px) {
     .Asd_on--subtitle{
         width: 100%;
@@ -42,6 +50,6 @@
         left: 100%;
       }
       100% {
-        left: -320%
+        left: -130%
       }
 }
