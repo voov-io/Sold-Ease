@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 136 136">
+  <g id="Your_Home_3" transform="translate(-929 -2144)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(929 2144)" fill="none" stroke="#008cff" stroke-width="4">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="66" fill="none"/>
+    </g>
+    <g id="Group_65" data-name="Group 65" transform="translate(106 456)">
+      <g id="Group_62" data-name="Group 62" transform="translate(232.77 0)">
+        <rect id="Rectangle_152" data-name="Rectangle 152" width="52.993" height="70.331" rx="5" transform="translate(638.006 1729.632)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Path_111" data-name="Path 111" d="M1071.969,942.258v-8.114a4.3,4.3,0,0,0-4.3-4.3h-44.4a4.3,4.3,0,0,0-4.3,4.3v61.741a4.3,4.3,0,0,0,4.3,4.3h7.48" transform="translate(-392.746 787.374)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_30" data-name="Line 30" x2="17.947" transform="translate(649.783 1765.5)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_31" data-name="Line 31" x2="29.441" transform="translate(649.783 1757.5)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_39" data-name="Line 39" x2="29.441" transform="translate(649.783 1750.5)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_40" data-name="Line 40" x2="29.441" transform="translate(649.783 1742.5)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_32" data-name="Line 32" x2="17.947" transform="translate(649.783 1772.5)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_33" data-name="Line 33" x2="17.664" transform="translate(649.783 1780.5)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(905 1773)" fill="none" stroke="#00437a" stroke-width="4">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="5" fill="none"/>
+      </g>
+    </g>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="21.5" cy="21.5" r="21.5" transform="translate(929 2147)" fill="#00437a"/>
+    <text id="_3" data-name="3" transform="translate(940 2155)" fill="#fff" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-5.22" y="18">3</tspan></text>
+  </g>
+</svg>

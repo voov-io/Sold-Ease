@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="136" viewBox="0 0 144 136">
+  <g id="Your_Home_1" transform="translate(-288 -2144)">
+    <g id="Group_68" data-name="Group 68">
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(296 2144)" fill="none" stroke="#008cff" stroke-width="4">
+        <circle cx="68" cy="68" r="68" stroke="none"/>
+        <circle cx="68" cy="68" r="66" fill="none"/>
+      </g>
+      <g id="Group_64" data-name="Group 64" transform="translate(-81 456)">
+        <line id="Line_23" data-name="Line 23" x2="35.329" transform="translate(427.453 1794.28)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <rect id="Rectangle_144" data-name="Rectangle 144" width="94.21" height="59.295" rx="7" transform="translate(398.012 1717.734)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_24" data-name="Line 24" y2="11.776" transform="translate(433.34 1782.504)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_25" data-name="Line 25" y2="11.776" transform="translate(456.893 1782.504)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_26" data-name="Line 26" x2="82.434" transform="translate(403.899 1764.839)" fill="none" stroke="#c9e0f1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_35" data-name="Line 35" x2="48.601" transform="translate(407.899 1752.882)" fill="none" stroke="#ebf6fe" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_37" data-name="Line 37" x2="11.994" transform="translate(468.5 1752.882)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_36" data-name="Line 36" x2="35.601" transform="translate(407.899 1741.882)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+        <line id="Line_38" data-name="Line 38" x2="35.601" transform="translate(407.899 1730.882)" fill="none" stroke="#00437a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="21.5" cy="21.5" r="21.5" transform="translate(288 2147)" fill="#00437a"/>
+      <text id="_1" data-name="1" transform="translate(299 2155)" fill="#fff" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-5.22" y="18">1</tspan></text>
+    </g>
+  </g>
+</svg>

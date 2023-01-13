@@ -16,7 +16,7 @@
     
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:110px) {
     .third-call-to-action{
         background-position: right;
         background-size: cover;

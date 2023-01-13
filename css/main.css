@@ -22,6 +22,10 @@ main form{
         -webkit-box-shadow: 0px 13px 28px 0px var(--Bluecolor30);
         -moz-box-shadow: 0px 13px 28px 0px var(--Bluecolor30);
 }
+
+main form div{
+    width: 100%;
+}
 .form__input{
     padding: 1.5em 1em;
     background-color: var(--Bluecolor30);
@@ -38,10 +42,10 @@ main form{
   }
 .form__input:first-child{
     padding: 1.5em 1em;
-    width: 50%;
+    width: 60%;
 }
 .form__input:nth-child(2){
-    width: 25%;
+    width: 35%;
 }
 
 .form__submit{
@@ -64,10 +68,10 @@ main .container h1{
     font-weight: 900;
     margin-bottom: .5em;
 }
-
+/*
 main .container > *{
     color:white
-}
+}*/
 .main--subtile{
     font-size:1.6em ;
     font-weight: 900;
@@ -78,13 +82,35 @@ main .container > *{
     text-align: justify;
 }
 
+@media screen and (max-width:651px) {
+    .form__submit {
+        padding: 1.5em 0em;
+    }
+}
+
+@media screen and (max-width:561px) {
+    main form{
+        flex-direction: column;
+        row-gap: 0.5em;
+    }
+    .form__input:first-child,.form__input:nth-child(2) {
+        width: 45%;
+    }
+}
+
+
 @media screen and (max-width:426px) {
     main{
         height: 60em;
+        background-position: 82%;
     }
     .main--copy{
         max-width:100%;
     }
+    main form{
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width:375px) {
