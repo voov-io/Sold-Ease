@@ -1,9 +1,67 @@
 .footer{
     background-color: var(--dark_blue_color);
 }
+
+.logo-footer{
+    width: 9.8em;
+}
+.subfooter__container ul{
+    width: 50%;
+}
+.subfooter__container{
+    display: flex;
+    padding: 2em;
+    place-content: center;
+    background-color: var(--colorLine);
+}
+
+.subfooter__container .footer__form{
+    display: flex;
+}
+.subfooter__container .footer__form input:first-child {
+    padding: 1.5em 1em;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-right: 0.5em;
+    width: 70%;
+
+}
+.subfooter__container .footer__form input:last-child {
+    margin-top: 0;
+    width: 30%;
+}
+.footer__container-sub .icon-contact{
+    width: 1.5em;
+    margin-right: 1em;
+}
+
+.footer__container-sub ul li {
+    display: flex;
+}
+
+footer ul li{
+    font-weight:400!important;
+
+}
+
+footer > ul li{
+ font: 0.8em;
+}
+.social-media img{
+    margin-left: .5em;
+    transition: all 0.3s ease;
+    width: 2.3em;
+}
+
+.social-media img:hover{
+    transform: scale(1.2);
+}
 .footer__container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(12em,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
     grid-template-rows: 2fr;
     justify-items: center;
     gap: 1em;
@@ -42,7 +100,8 @@
 }
 .footer__container-sub figcaption{
     color: white;
-    /*font-size: 0.8em;*/
+    font-size: 0.9em;
+    font-weight: 300;
 }
 .container__img{
     margin: 0;
@@ -107,4 +166,24 @@ align-items: center;
         place-items: baseline;
     }
 
+}
+
+@media screen and (max-width:426px) {
+    .subfooter__container{
+        flex-direction: column;
+    }
+    .subfooter__container ul{
+        width: 100%;
+    }
+    .subfooter__container .footer__form{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .subfooter__container .footer__form input:first-child {
+        width: 100%;
+    
+    }
+    .subfooter__container .footer__form input:last-child {
+        width: 100%;
+    }
 }

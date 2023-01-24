@@ -38,10 +38,10 @@
   }
   ul, li,a{
     font-weight: 900;
-    list-style: none;
+    list-style: none;text-decoration: none;
   }
 
-  li a, a{
+  header li a, header a{
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
