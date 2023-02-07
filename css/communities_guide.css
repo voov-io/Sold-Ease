@@ -1,0 +1,159 @@
+.page-container{
+    display: flex;
+    position: relative;
+}
+.page-container .container{
+    max-width: 1366px;
+    display: flex;
+}
+
+.communities__guide{
+    width: 65%;
+}
+.communities__guide--title{
+    font-size: 3.75em;
+    font-weight: 900;
+}
+.communities__guide--copy{
+    margin-bottom: 3em;
+    font-family: 'Lato';
+    font-weight:400 ;
+}
+.communities__guide--container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,16em);
+    gap:1.5em;
+    justify-content: center;
+}
+.community__container{
+    display: flex;
+    place-items: center;
+    justify-content: left;
+    padding: 1em ;
+    max-width: 17em ;
+    max-height: 5em;
+    box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+        -webkit-box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+        -moz-box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+    border-radius: 15px;
+    transition: all .5s;
+
+}
+.community__container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px 0px var(--Bluecolor30);
+        -webkit-box-shadow: 0px 5px 10px 0px var(--Bluecolor30);
+        -moz-box-shadow: 0px 5px 10px 0px var(--Bluecolor30);
+
+}
+
+.community__container:hover .community--pin {
+    
+    animation: shake .3s linear infinite alternate;
+}
+
+@keyframes shake {
+    0%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+.community--pin{
+    margin-right: 1em;
+}
+
+.community--name{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+        -webkit-box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+        -moz-box-shadow: 0px 3px 5px 0px var(--Bluecolor30);
+    border-radius: 15px;
+    height: max-content;
+    position: sticky;
+    top: 25px;
+}
+
+.form__sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form__sidebar--label, .form__sidebar--input{
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.form__sidebar--input{
+    border: none;
+    padding: .5em;
+    background-color:var(--blue_opacity_color);
+    border-radius: 5px;
+    height: 2em;
+}
+
+.form__sidebar input[type=button]{
+    border: none;
+}
+/*button for mobile*/
+
+.get_my_offer{
+    position: sticky;
+    bottom: 1em;
+    display: flex;
+    justify-content: end;
+}
+.get_my_offer--button{
+    background: var(--yellow__color);
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    z-index: 3;
+    display: none;
+
+}
+
+.get_my_offer--button img{
+    width: 35px;
+    height: 35px;
+}
+@media screen and (max-width:426px){
+    .page-container .container{
+        flex-direction: column;
+    }
+    .communities__guide, .sidebar{
+        width: 100%;
+    }
+    .get_my_offer--button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*
+community page rules
+*/
+
+.banner-community-page{
+    width: 100%;
+    height: 2em;
+    min-height: 3em;
+    background-image: url("../images/background-image-of-community.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
